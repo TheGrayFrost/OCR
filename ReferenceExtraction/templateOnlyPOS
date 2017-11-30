@@ -1,0 +1,18 @@
+# Unigram
+
+# Context features
+
+ 
+U01:%x[-2,0]
+U02:%x[-1,0] # previousword
+U03:%x[0,0]  # current word
+U04:%x[1,0]  # next word
+U05:%x[1,0]
+
+U06:%x[-2,1]
+U07:%x[-1,1] # previousword
+U08:%x[0,1]  # current word
+U09:%x[1,1]  # next word
+U10:%x[2,1]
+
+
