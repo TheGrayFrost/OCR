@@ -3,7 +3,7 @@ Code written for experimentation with reference tagging and keyphrase extraction
 
 Requirements CRF++ (>0.58) 
 
-##Code Description for Reference extraction
+## **Code Description for Reference extraction**
 
 Steps for Running the code
 
@@ -29,25 +29,26 @@ To check Accuracy of model:
 
 
 
-##File Description for Keyphrase Extraction
+## **File Description for Keyphrase Extraction**
 
-###Random Forest.ipynb: Contains code to train and evaluate random forest model 
-                     on the stylistic bigram features finally extracted from the pdfs.
+### _Random Forest.ipynb:_
+Contains code to train and evaluate random forest model 
+on the stylistic bigram features finally extracted from the pdfs.
 
-###Folder: Scraper
+### _Folder: Scraper_
 
 paperlist.pckl contains the list of the papers in the dataset. (Found at http://disi.unitn.it/~krapivin/)
 ACM Query.py runs a query on the paper doi's on the ACM Website. 
 scraper.py, scr2.py scrape those pdfs from CiteSeerX.
 DOI.py, PDF.py, PDF List.py verify if the pdfs are the ones we expected.
 
-###Folder: Feature Generation
+### _Folder: Feature Generation_
 
 FGen.py, Feature Generate.py, FinalFG.py generate features for Unigram Model
 BiIDF.py, BiIDFNew.py generate IDF's for Bigrams
 BiFG.py, BiFGNew.py, BiFinalFG.py generate features for Bigram Model
 
-###Folder: Stylistics
+### _Folder: Stylistics_
 
 dicgen.py, key.py, setgen.py, tfidfdicgen.py generate and store the word-int map required for random forests 
 (as scikit learn random forests can only work with numbers)
