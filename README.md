@@ -37,7 +37,7 @@ on the stylistic bigram features finally extracted from the pdfs.
 
 ### _Folder: Scraper_
 
-paperlist.pckl contains the list of the papers in the [dataset](http://disi.unitn.it/~krapivin/). 
+paperlist.pckl contains the list of the papers in the [dataset](http://disi.unitn.it/~krapivin/).
 ACM Query.py runs a query on the paper doi's on the ACM Website. 
 scraper.py, scr2.py scrape those pdfs from CiteSeerX.
 DOI.py, PDF.py, PDF List.py verify if the pdfs are the ones we expected.
