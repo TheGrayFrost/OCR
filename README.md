@@ -32,15 +32,18 @@ To check Accuracy of model:
 ## **File Description for Keyphrase Extraction**
 
 ### _Random Forest.ipynb:_
-Contains code to train and evaluate random forest model 
-on the stylistic bigram features finally extracted from the pdfs.
+Contains code to train and evaluate random forest model on the stylistic bigram features finally extracted from the pdfs.
 
 ### _Folder: Scraper_
 
-paperlist.pckl contains the list of the papers in the [dataset](http://disi.unitn.it/~krapivin/).
-ACM Query.py runs a query on the paper doi's on the ACM Website. 
-scraper.py, scr2.py scrape those pdfs from CiteSeerX.
-DOI.py, PDF.py, PDF List.py verify if the pdfs are the ones we expected.
+paperlist.pckl contains the list of the papers in the [dataset](http://disi.unitn.it/~krapivin/).  
+
+ACM Query.py runs a query on the paper doi's on the ACM Website.  
+
+scraper.py, scr2.py scrape those pdfs from CiteSeerX.  
+
+DOI.py, PDF.py, PDF List.py verify if the pdfs are the ones we expected.  
+
 
 ### _Folder: Feature Generation_
 
