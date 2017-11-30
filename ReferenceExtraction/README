@@ -10,11 +10,11 @@ c. Using POS Tags and Stylsitic Features( Double weightage to POS Tags)
 
 To train a model:
  
-	crf_learn <template_file_name> FinalTrain.txt <tagger_model_name>
+	crf_learn <template_file_name> TrainBatch.txt <tagger_model_name>
 
 To test a model:
 	
-	crf_test -m <tagger_model_name> FinalTest.txt -> <outputfilename.txt>
+	crf_test -m <tagger_model_name> TestBatch.txt -> <outputfilename.txt>
 
 To check Accuracy of model:
 
